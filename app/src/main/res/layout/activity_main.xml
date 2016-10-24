@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+
+    tools:context="com.swpuiot.mynorthpoint.MainActivity">
+
+    <TextView
+        android:id="@+id/text_fangxiang"
+        android:textSize="25sp"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:layout_marginTop="48dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hwllo"/>
+    <TextView
+        android:id="@+id/text_dushu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="#fff"
+        android:layout_below="@+id/text_fangxiang"
+        android:gravity="center"
+        android:text="Hello World!" />
+    <ImageView
+        android:id="@+id/image_biaopan"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/image_launcher"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+    <ImageView
+        android:id="@+id/image_zhizheng"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:src="@drawable/image_img"
+        android:layout_marginTop="62dp"
+        android:layout_alignTop="@+id/image_biaopan"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
